@@ -1,5 +1,6 @@
 import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
@@ -47,6 +48,7 @@ const Home = () => {
                 <h2>Fullstack Developer / JavaScript Expert / Competitive Coder</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     );
 }
